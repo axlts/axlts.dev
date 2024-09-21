@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>axlts</title>
+    <meta name="description" content="Welcome to axlts' personal page. Connect with me through my social media links.">
+    <link rel="canonical" href="https://axlts.dev/">
+    <link rel="icon" href="https://via.placeholder.com/16/7D5FDE/FFFFFF?text=%E2%96%BC" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #000007, #0E0135, #221451, #352269);
+            font-family: Arial, sans-serif;
+            padding: 20px; /* Padding for small screens */
+            box-sizing: border-box; /* Include padding in width calculations */
+        }
+        .image-container {
+            width: 250px; /* Default size */
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            width: 100%; /* Full width of the container */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 50%; /* Circular image */
+            object-fit: cover; /* Ensure the image covers the area */
+            border: 5px solid #fff;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2rem; /* Responsive font size */
+            color: #fff;
+            text-align: center;
+        }
+        .social-links {
+            display: flex;
+            gap: 20px; /* Space between links */
+            flex-wrap: wrap; /* Allow wrapping for smaller screens */
+            justify-content: center;
+        }
+        .social-links a {
+            color: #fff;
+            font-size: 2rem; /* Responsive icon size */
+            transition: color 0.3s; /* Smooth color transition */
+        }
+        .social-links a:hover {
+            color: #7D5FDE; /* Change to a fitting color for hover */
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            .image-container {
+                width: 200px; /* Smaller size for mobile */
+                height: 200px;
+            }
+            h1 {
+                font-size: 1.5rem; /* Smaller font size for mobile */
+            }
+            .social-links a {
+                font-size: 1.5rem; /* Smaller icon size for mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://avatars.githubusercontent.com/u/107384004?s=400&u=fdd16d89de0ea87f52515319ba1b3f75909314ce&v=4" alt="Profile image of axlts" />
+    </div>
+    <h1>axlts</h1>
+    <div class="social-links">
+        <a href="https://github.com/axlts" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/axltsx" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/alexandr-tsapkov/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:axlts.dev@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+</body>
+</html>
